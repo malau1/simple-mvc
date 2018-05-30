@@ -1,0 +1,16 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Martin Laundl",
+      "email": "martin.laundl@gmail.com",
+      "homepage": "https://theconcept.online"
+    }
+  ],
+  "require-dev": {
+      "phpunit/phpunit": "^7"
+  }
+}
