@@ -8,8 +8,8 @@ node('master') {
 
             // Install dependencies, create a new .env file and generate a new key, just for testing
             sh "composer install"
-            sh "cp .env.example .env"
-            sh "php artisan key:generate"
+            //sh "cp .env.example .env"
+            //sh "php artisan key:generate"
 
             // Run any static asset building, if needed
             // sh "npm install && gulp --production"
